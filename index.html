@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Home Page</title>
+		<link rel="modulepreload" crossorigin href="./js/common.min.js?v=1767890538575">
+		<script type="module" crossorigin="" src="./js/popup.min.js?v=1767890538575"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/popup.min.css?v=1767890538575">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1767890538575">
+	</head>
+	<body>
+		<div class="wrapper">
+			<main class="page page--index">
+				<section class="page__choose-city choose-city">
+					<div class="choose-city__container">
+						<div data-fls-titleblock="" class="choose-city__title-block title-block title-block--big">
+							<h1 class="title-block__title">Upholstery Cleaning in the US</h1>
+							<h2 class="title-block__sub-title">Choose your city</h2>
+						</div>
+						<div class="choose-city__items">
+							<a href="" class="choose-city__item item-choose-city">
+								<div class="item-choose-city__image ibg">
+									<picture>
+										<img alt="Image" src="./assets/img/cover.webp">
+									</picture>
+								</div>
+								<h3 class="item-choose-city__city">Charlotte, NC</h3>
+							</a>
+							<a href="" class="choose-city__item item-choose-city">
+								<div class="item-choose-city__image ibg">
+									<picture>
+										<img alt="Image" src="./assets/img/cover.webp">
+									</picture>
+								</div>
+								<h3 class="item-choose-city__city">Raleigh, NC</h3>
+							</a>
+							<a href="" class="choose-city__item item-choose-city">
+								<div class="item-choose-city__image ibg">
+									<picture>
+										<img alt="Image" src="./assets/img/cover.webp">
+									</picture>
+								</div>
+								<h3 class="item-choose-city__city">Atlanta, NC</h3>
+							</a>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+		<a href="#" data-fls-popup-link="popup" class="popup-link --icon-chat"></a>
+		<div data-fls-popup="popup" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close">
+						<svg width="23" height="23" viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path opacity="0.850056" d="M1.73333 1.48883L21.5469 21.0288" stroke="#979797" stroke-linecap="square"></path>
+							<path opacity="0.850056" d="M21.2667 1.48883L1.45309 21.0288" stroke="#979797" stroke-linecap="square"></path>
+						</svg>
+					</button>
+					<div data-fls-popup-content="" class="popup__text content-popup">
+						<div data-fls-titleblock="" class="content-popup__title-block title-block">
+							<div class="title-block__title">Book your cleaning now and get the best price</div>
+							<div class="title-block__sub-title">Give new life to your sofa, mattress and carpets</div>
+						</div>
+						<form action="#" class="content-popup__form">
+							<div class="content-popup__inputs">
+								<input data-fls-input="" required autocomplete="off" type="text" name="form[name]" data-error="Incorrect data" placeholder="Name" class="content-popup__input input">
+								<input data-fls-input="" required autocomplete="off" type="email" name="form[email]" data-error="Incorrect data" placeholder="Email" class="content-popup__input input">
+								<input data-fls-input="" autocomplete="on" required type="tel" name="form[tel]" data-error="Incorrect data" placeholder="+1 (555) 123-4567" pattern="^\+1 \(\d{3}\) \d{3}-\d{4}$" id="phone-input-popup" class="content-popup__input input">
+								<input data-fls-input="" required autocomplete="off" type="number" name="form[zip]" data-error="Incorrect data" placeholder="Zip code" class="content-popup__input input">
+							</div>
+							<button type="submit" class="content-popup__button button button--accent">Get the best price</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
